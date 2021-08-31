@@ -15,3 +15,4 @@ add_executable (CMakeHelloWorld Hello HelloWorld.cpp)
 target_link_libraries (CMakeHelloWorld Hello)
 
 install (TARGETS CMakeHelloWorld DESTINATION bin)
+
