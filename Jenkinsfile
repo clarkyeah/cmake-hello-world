@@ -22,7 +22,7 @@ pipeline {
             PROJECT_NAME = "hello_jenkins_pipeline"
         }
         steps {
-            withSonarQubeEnv('Sonar') {
+            withSonarQubeEnv('sonar') {
                 sh '''$SCANNER_HOME/bin/sonar-scanner \
                 -Dsonar.organization=clarkyeah \
                 -Dsonar.projectKey=hello_jenkins_pipeline \
