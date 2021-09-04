@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Source') {
       steps {
-        sh 'build_wrapper.sh'
+        sh './build_wrapper.sh'
       }
     }
     stage('SonarCloud') {
