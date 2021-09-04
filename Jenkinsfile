@@ -16,11 +16,6 @@ pipeline {
       }
     }
     stage('SonarCloud') {
-        environment {
-            SCANNER_HOME = tool 'SonarQubeScanner'
-            ORGANIZATION = "clarkyeah"
-            PROJECT_NAME = "hello_jenkins_pipeline"
-        }
         steps {
             withSonarQubeEnv('Sonar') {
                 sh '''sonar-scanner \
