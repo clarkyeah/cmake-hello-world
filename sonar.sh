@@ -1,6 +1,6 @@
 sonar-scanner \
  -Dsonar.organization=clarkyeah \ 
- -Dsonar.projectKey=clark13437187167 \
+ -Dsonar.projectKey=hello_jenkins_pipeline \
  -Dsonar.sources=. \
  -Dsonar.cfamily.build-wrapper-output=bw-output\
  -Dsonar.host.url=https://sonarcloud.io \
